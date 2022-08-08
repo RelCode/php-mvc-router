@@ -3,10 +3,13 @@
         <a href="./" class="nav-logo"><?= APP_NAME ?></a>
         <ul class="nav-menu">
             <li class="nav-item">
+                <a href="./heroes" class="nav-link">Heroes</a>
+            </li>
+            <li class="nav-item">
                 <a href="./about" class="nav-link">About</a>
             </li>
             <li class="nav-item">
-                <a href="./contact" class="nav-link">Contact</a>
+                <a href="./not-found" class="nav-link">Does Not Exist</a>
             </li>
         </ul>
         <div class="hamburger">

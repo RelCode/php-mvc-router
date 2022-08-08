@@ -14,4 +14,4 @@ define('AUTHOR','RelCode');
 
     for your use case, if you want add another page that users should be able to reach, products.php page for example, just add it on the array below
 */
-$navigable = ['home','about','contact' /*,'products'*/];
+// $navigable = ['home','users','about' /*,'products'*/];
