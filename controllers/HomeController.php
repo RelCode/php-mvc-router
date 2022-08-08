@@ -13,7 +13,7 @@ class HomeController extends Library\Helper {
         */
 
         //the view method is inherited from the helper library
-        $this->view('home.php');
+        $this->view('home');
         /*
             I want this controller to view home.php, so I'm passing it as an argument,
             if I wanted to view something else, read.php, delete.php, I would've passed $this->action as an argument

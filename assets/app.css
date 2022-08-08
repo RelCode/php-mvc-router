@@ -76,8 +76,18 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 48px;
+    font-size: 38px;
     font-weight: bold;
+    flex-direction: column;
+}
+
+.container h4 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.container ul {
+    text-align: center;
 }
 
 @media only screen and (max-width: 768px) {

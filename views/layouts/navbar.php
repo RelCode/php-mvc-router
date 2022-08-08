@@ -3,7 +3,7 @@
         <a href="./" class="nav-logo"><?= APP_NAME ?></a>
         <ul class="nav-menu">
             <li class="nav-item">
-                <a href="./heroes" class="nav-link">Heroes</a>
+                <a href="./heroes/list" class="nav-link">Heroes</a>
             </li>
             <li class="nav-item">
                 <a href="./about" class="nav-link">About</a>

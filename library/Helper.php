@@ -13,10 +13,9 @@ class Helper {
     }
 
     //default viewer for every controller available.
-    public function view($view,$data = []){
+    public function view($view,$data = null){
         // if a view must contain data to render it must be passed as an array, if not, an empty data array will be available
-
         //then we require the passed parameter which contains the required view based on its controller
-        require('./views/'. $view);
+        require('./views/'. $view . '.php');
     }
 }
