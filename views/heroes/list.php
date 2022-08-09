@@ -3,8 +3,9 @@
     <ul>
         <?php
             $li = '';
+            //foreach loop to iterate through the returned superheroes list that's passed from  the controller
             foreach ($data as $id => $hero) {
-                $li .= '<li><a href="./heroes/read/'.$hero['id'].'">'.$hero['superhero'].'</a></li>';
+                $li .= '<li><a class="underlined" href="./heroes/read/'.$hero['id'].'">'.$hero['superhero'].'</a></li>';
             }
             echo $li;
         ?>

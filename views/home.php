@@ -1,3 +1,3 @@
 <div class="container">
-    HOME
+    Welcome To The Home Page
 </div>

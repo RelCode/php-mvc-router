@@ -6,7 +6,10 @@
                 <a href="./heroes/list" class="nav-link">Heroes</a>
             </li>
             <li class="nav-item">
-                <a href="./about" class="nav-link">About</a>
+                <a href="./post" class="nav-link">Post</a>
+            </li>
+            <li class="nav-item">
+                <a href="./query/?query=queryStringValue" class="nav-link">String Query</a>
             </li>
             <li class="nav-item">
                 <a href="./not-found" class="nav-link">Does Not Exist</a>
