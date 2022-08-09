@@ -20,6 +20,14 @@ This library is small (*< 75kb*), secure as it offers XSRF & Cross-Site Scriptin
 - controllers (this is where all the created Controllers for different routes will be stored)
 - models (this is where all the created models for different routes will be stored)
 - views (this is where all the created views for different routes will be stored, including 404.php page that will be rendered if the route does not exist)
+- layouts (contains standard header.php, navbar.php & footer.php)
+
+### How it works:
+
+- index.php runs as an index file would, and then calls app.php
+- inside app.php, Router.php handles the routing and returns uri subsets which are used to check if the current uri contains a class that can return a view, if not 404.php page is returned, meaning the current routing is either invalid or not yet set, and from here as you go through the application you'll see how everything is structured out.
+- under navbar different anchor tags to different pages are included to give you an idea of how the routing works and $_GET, $_POST, /?query requests are made available under different pages to give an understanding of how those can be handled.
+- initially, the project contains files you can use for gaining better understanding of how you can add on top of the existing code
 
 #### There are multiple frameworks out there for this but to those who want to do something small or get an idea of how you can create one such library for your own application, I'd say this is the best place to start
 
